@@ -14,7 +14,7 @@ It's recommended to upload the entire repository from this GitHub page before pr
 
 ### 2. How to run the algorithm with the Terminal ?
 
-To run the algorithm, you must go to your terminal and use the following command below :
+To run the algorithm, you must go to your terminal (at the folder level that contains the Python scripts) and use the following command below :
 
 **python -m input_string number_of_left_rotation**
 
