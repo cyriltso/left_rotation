@@ -8,7 +8,7 @@ More information regarding the Left Rotation algorithm here : https://www.hacker
 
 This algorithm allows the user to shift the positions of the elements inside of a string.
 
-This algorithm will be able to be executed through the Terminal or through the use of Docker.
+This algorithm can be executed through the Terminal or Docker.
 
 It's recommended to upload the entire repository from this GitHub page before proceeding to the next steps.
 
