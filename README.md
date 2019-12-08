@@ -15,8 +15,9 @@ It's recommended to upload the entire repository from this GitHub page before pr
 ### 2. How to run the algorithm with the Terminal ?
 
 To run the algorithm, you must go to your terminal (at the folder level that contains the Python scripts) and use the following command below :
-
-**python -m input_string number_of_left_rotation**
+```
+python -m input_string number_of_left_rotation
+```
 
 Parameters :
 -  input_string; type = string : the string for which we want to left rotate its elements.
@@ -28,12 +29,22 @@ To run the algorithm with Docker, there are few steps to follow :
 
 1.  Launch the Terminal on your computer.
 2.  You have to locate on your directory that contains the Python script and the Dockerfile (a succession of instructions on which a Docker image is built and ran on).
-3.  Use this command to build the image of the Python script : **docker build -t left_rotate .**
-4.  Once the image is built, use this command to run the image that will launch the script : **docker run -it --rm left_rotate input_string number_of_left_rotation**. 
+3.  Use this command to build the image of the Python script : 
+```
+docker build -t left_rotate .
+```
+4.  Once the image is built, use this command to run the image that will launch the script :
+```
+docker run -it --rm left_rotate input_string number_of_left_rotation
+```
 
-**left_rotate** will act as the image that contains **main.py** and **LeftRotate.py**. 
+`left_rotate` will act as the image that contains `main.py` and `LeftRotate.py` 
 
-For example, if I want to left rotate elements by 2 in the string "abcdefg", you will have to write this command : **docker run -it --rm left_rotate abcdefg 2**, the output will be 'cdefgab'.
+For example, if I want to left rotate elements by 2 in the string "abcdefg", you will have to write this command : 
+```
+docker run -it --rm left_rotate abcdefg 2
+``` 
+The output will be "cdefgab".
 
 ### 4. Contents of the repository
 
